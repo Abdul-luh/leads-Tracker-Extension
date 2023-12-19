@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "version": "1.9",
+    "name": "Leads Tracker",
+    "description": "Leads Trackers is a tool that allows you to easily save profiles pages of potential customers and clients",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "ivon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

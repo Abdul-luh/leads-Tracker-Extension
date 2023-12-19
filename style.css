@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+    margin-bottom: 10px;
+    background-color: darkslategray;
+}
+h1 {
+    color: seashell;
+    margin-left: 20px;
+}
+.form{
+    min-width: 350px;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+button {
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.save-input {
+    background-color: greenyellow;
+}
+.save-tab {
+    background-color: green;
+    color: aliceblue;
+}
+.delete-all {
+    background-color: red;
+
+}
+li{
+    font-size: 16px;
+    margin: 2px 0 0 18px;
+    list-style-type: circle;
+    list-style: linear-gradient(seashell, seashell);
+}
+
+li a{
+    color: seashell;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: darkgrey;
+}
+
+li a::after{
+    color:  red;
+}
